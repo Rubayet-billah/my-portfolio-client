@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 101,
+    "image": "https://i.ibb.co/qM5FXGT/resale-Laptop.png",
+    "name": "Resale Laptop",
+    "details": " Its a laptop buying/selling website.",
+    "link": "https://my-assignment-12-e6b37.web.app/",
+    "ratings": 4.8
+  },
+  {
+    "_id": 102,
+    "image": "https://i.ibb.co/wBwzXXz/gameNote.png",
+    "name": "Game Note",
+    "details": " Its a Gaming topup based website.",
+    "link": "https://my-assignment-11-92c6d.web.app/",
+    "ratings": 4.7
+  },
+  {
+    "_id": 103,
+    "image": "https://i.ibb.co/9nYhxbX/eStack.png",
+    "name": "E Stack",
+    "details": "Its a educational courses based website.",
+    "link": "https://assignment-10-client-78ac3.web.app/",
+    "ratings": 4.5
+  }
+]
