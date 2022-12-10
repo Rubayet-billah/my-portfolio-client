@@ -17,7 +17,7 @@ const Project = ({ project }) => {
                             <p className='text-yellow-600'><a href={link} target='_blank' >View Project</a></p>
                             <p className='flex items-center mt-1'>Ratings: <AiFillStar className='text-yellow-500 ml-1' /> {ratings}</p>
                         </div>
-                        <button className="btn btn-primary btn-sm">Deatils</button>
+                        <button className="btn btn-accent btn-sm">Deatils</button>
                     </section>
                 </div>
             </div>
