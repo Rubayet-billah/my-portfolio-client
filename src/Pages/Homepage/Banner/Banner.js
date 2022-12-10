@@ -11,8 +11,7 @@ const Banner = () => {
                     </div>
                     <div className='lg:mx-8'>
                         <h1 className="text-5xl font-bold text-primary">Rubayet Billah</h1>
-                        <p className="text-2xl py-6">I am a Front-end Developer from Bangladesh</p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <p className="text-2xl py-6">I am a Front-end Developer from Bangladesh.I love to do codes.I love to design.</p>
                     </div>
                 </div>
             </div>
