@@ -5,7 +5,7 @@ import { AiFillStar } from 'react-icons/ai'
 const Project = ({ project }) => {
     const { image, name, details, link, ratings } = project
     return (
-        <div>
+        <div className='hover:scale-105 ease-in duration-200'>
 
             <div className="card card-compact w-80 md:w-full bg-neutral-focus shadow-xl">
                 <figure><img src={image} alt="Shoes" /></figure>

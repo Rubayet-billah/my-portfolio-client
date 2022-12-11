@@ -6,10 +6,10 @@ const Banner = () => {
         <div>
             <div className="hero min-h-[70vh]">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className='lg:mx-8'>
+                    <div className='lg:mx-8 hover:scale-105 ease-in duration-200'>
                         <img src={bannerImg} className="max-w-sm rounded-lg shadow-2xl" alt='' />
                     </div>
-                    <div className='lg:mx-8'>
+                    <div className='lg:mx-8 hover:scale-105 ease-in duration-200'>
                         <h1 className="text-5xl font-bold text-accent">Rubayet Billah</h1>
                         <p className="text-2xl py-6">I am a Front-end Developer from Bangladesh.I love to do codes.I love to design.</p>
                         <button className='btn btn-accent btn-sm md:btn-md rounded-3xl'><a href="https://drive.google.com/file/d/1V8r_viLpTSHNcx10_cIsy3Reox-S6_WR/view" target='_blank' rel="noreferrer">View Resume</a></button>

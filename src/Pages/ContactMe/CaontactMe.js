@@ -23,7 +23,7 @@ const CaontactMe = () => {
     return (
         <div className='bg-neutral md:p-8 rounded bg-opacity-50 mt-5'>
             <h1 className='text-4xl text-center font-bold mb-8'>Contact With Me</h1>
-            <form ref={form} onSubmit={sendEmail} className='max-w-lg p-5 md:p-8 mx-auto bg-neutral-focus rounded-lg'>
+            <form ref={form} onSubmit={sendEmail} className='max-w-lg p-5 md:p-8 mx-auto bg-neutral-focus rounded-lg hover:scale-105 ease-in duration-200'>
                 <input type="email" name="from_email" placeholder='Enter your email' className="input input-bordered w-full bg-neutral my-3" />
                 <textarea name="message" className="textarea textarea-bordered w-full bg-neutral my-3" placeholder="Write your message"></textarea>
                 <input className='btn btn-accent block w-full' type="submit" value="Send Mail" />
