@@ -4,15 +4,17 @@ import myPhoto from '../../assets/bannerImg/profile 2.jpg'
 const AboutMe = () => {
     return (
         <div>
-            <h1 className='text-4xl text-center font-bold mb-8'>About Me</h1>
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className='lg:mx-8 hover:scale-105 ease-in duration-200'>
-                    <img src={myPhoto} className="w-full rounded-full shadow-2xl" alt='' />
+                    <img src={myPhoto} className="w-full md: max-w-md rounded-full shadow-2xl" alt='' />
                 </div>
-                <div className='lg:mx-8 hover:scale-105 ease-in duration-200'>
-                    <h1 className="text-5xl font-bold text-accent">Rubayet Billah</h1>
-                    <p className="text-2xl py-6">I am a Front-end Developer from Bangladesh.I love to do codes.I love to design.</p>
-                    <button className='btn btn-accent btn-sm md:btn-md rounded-3xl'><a href="https://drive.google.com/file/d/1V8r_viLpTSHNcx10_cIsy3Reox-S6_WR/view" target='_blank' rel="noreferrer">View Resume</a></button>
+                <div className='lg:mx-8 hover:scale-105 ease-in duration-200 max-w-lg'>
+                    <h1 className='text-2xl text-center font-bold'>About Me</h1>
+                    <p className="py-6">Hi, I am <span className='text-accent font-bold'>Rubayet Billah</span> and I am a Front-end Developer from Bangladesh.Form my early age I was interested in computer technology. After completing secondary education I started to gather knowledge of programming. I made myself comfortable with technologies like <span className='text-accent font-bold'>React Js, HTML, CSS, Node Js, Firebase</span> etc.</p>
+                    <h1 className='text-2xl text-center font-bold'>Contact Info</h1>
+                    <div>
+
+                    </div>
                 </div>
             </div>
         </div>
