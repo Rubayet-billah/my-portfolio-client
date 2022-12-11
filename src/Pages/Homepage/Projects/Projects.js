@@ -12,7 +12,7 @@ const Projects = () => {
             })
     }, [])
     return (
-        <div className='bg-secondary md:p-8 rounded bg-opacity-50'>
+        <div className='bg-secondary py-5 md:p-8 rounded bg-opacity-50'>
             <h1 className='text-4xl text-center font-bold mb-8'>Projects</h1>
             <section className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {
