@@ -16,7 +16,11 @@ module.exports = {
     // ]
   },
   theme: {
+    fontFamily: {
+      sans: ['Comfortaa', "cursive"]
+    },
     extend: {},
+
   },
   plugins: [require('daisyui')],
 }

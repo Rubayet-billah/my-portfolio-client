@@ -7,7 +7,7 @@ const Project = ({ project }) => {
     return (
         <div className='hover:scale-105 ease-in duration-200'>
 
-            <div className="card card-compact w-80 md:w-full bg-neutral-focus shadow-xl">
+            <div className="card card-compact w-80 mx-auto md:w-full bg-neutral-focus shadow-xl">
                 <figure><img src={image} alt="Shoes" /></figure>
                 <div className="p-6">
                     <h2 className="card-title">{name}</h2>

@@ -9,7 +9,7 @@ const MainLayout = () => {
     return (
         <div className='bg-fixed bg-cover' style={{ backgroundImage: `url(${portfolioBackground})` }}>
             <Header></Header>
-            <main className='container mx-auto py-5 bg-black bg-opacity-30'>
+            <main className='container mx-auto px-2 py-5 bg-black bg-opacity-30'>
                 <Outlet></Outlet>
             </main>
             <Footer></Footer>

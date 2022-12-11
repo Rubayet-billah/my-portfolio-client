@@ -5,7 +5,7 @@ const Header = () => {
 
     const menu = <>
         <li><Link to='/'>Home</Link></li>
-        <li><Link>About Me</Link></li>
+        <li><Link to='/about'>About Me</Link></li>
     </>
     return (
         <div>
