@@ -11,7 +11,11 @@ const AboutMe = () => {
                 </div>
                 <div className='lg:mx-8 hover:scale-105 ease-in duration-200 max-w-lg'>
                     <h1 className='text-2xl text-center font-bold'>About Me</h1>
-                    <p className="py-6">Hi, I am <span className='text-accent font-bold'>Rubayet Billah</span> and I am a Front-end Developer from Bangladesh.Form my early age I was interested in computer technology. After completing secondary education I started to gather knowledge of programming. I made myself comfortable with technologies like <span className='text-accent font-bold'>React Js, HTML, CSS, Node Js, Firebase</span> etc.</p>
+                    <p className="py-6 text-justify">
+                        Hi, I am <span className='text-accent font-bold'>Rubayet Billah</span>, a front-end developer from Bangladesh. I have been interested in computer technology since childhood. After completing my secondary education I started to gather basic programming knowledge. I choose web development to enter this IT world. Starting with HTML, CSS and now I am comfortable with front-end technologies like <span className='text-accent font-bold'>React JS, Javascript, Bootstrap, Tailwind, Firebase</span> etc and some backend technologies like <span className='text-accent font-bold'>Node JS, Express JS, MongoDB</span> etc.
+                        <br />
+                        Apart from technology, I have interest in electronics and astrophysics. I spend my time here whenever I have some free time.
+                    </p>
                     <h1 className='text-2xl text-center font-bold'>Contact Info</h1>
                     <div>
                         <div className='flex items-center'><MdLocalPhone className='mr-1' />+8801875685814</div>
