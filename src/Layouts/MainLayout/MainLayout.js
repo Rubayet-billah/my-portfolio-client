@@ -3,12 +3,13 @@ import { Toaster } from 'react-hot-toast';
 import { Outlet } from 'react-router-dom';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
+import portfolioBackground from '../../assets/backgound/portfolioBackground.jpg'
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className='bg-fixed bg-cover' style={{ backgroundImage: `url(${portfolioBackground})` }}>
             <Header></Header>
-            <main className='container mx-auto py-5 '>
+            <main className='container mx-auto py-5 bg-black bg-opacity-30'>
                 <Outlet></Outlet>
             </main>
             <Footer></Footer>
