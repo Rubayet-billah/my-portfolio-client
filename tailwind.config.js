@@ -4,16 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   daisyui: {
-    // themes: [
-    //   {
-    //     portfolioTheme: {
-    //       primary: '#9b1fe9',
-    //       secondary: '#eef2fe',
-    //       accent: '#6d7380',
-    //       "base-100": "#FFFFFF",
-    //     }
-    //   }
-    // ]
+    themes: [
+      {
+        portfolioTheme: {
+          primary: '#03C6C7',
+          secondary: '#242B2E',
+          accent: '#fbfbfb',
+        }
+      }
+    ]
   },
   theme: {
     fontFamily: {

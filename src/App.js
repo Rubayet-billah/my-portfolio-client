@@ -5,7 +5,7 @@ import router from './Routes/routes/routes';
 
 function App() {
   return (
-    <div className=" text-neutral-content">
+    <div className=" text-accent">
       <RouterProvider router={router} />
     </div>
   );
